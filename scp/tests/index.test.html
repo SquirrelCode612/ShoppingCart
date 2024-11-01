@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wild Terrace Cart</title>
+    <link rel="stylesheet" href="styles.test.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Wild Terrace Shopping Cart</h1>
+    </header>
+
+    <main>
+      <section class="products">
+        <div class="product" data-id="1">
+          <h3>Eco-Friendly Paint Set</h3>
+          <p>$30</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-id="2">
+          <h3>Recycled Sketchbook</h3>
+          <p>$15</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-id="3">
+          <h3>Meditation Cushion</h3>
+          <p>$50</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </section>
+
+      <section class="cart">
+        <h2>Your Cart</h2>
+        <ul id="cart-items"></ul>
+
+        <div class="cart-total">
+          <p>Total: $<span id="cart-total">0</span></p>
+        </div>
+        <button id="checkout-btn">Checkout</button>
+      </section>
+    </main>
+
+    <script src="script.test.js"></script>
+  </body>
+</html>
